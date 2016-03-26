@@ -1,0 +1,313 @@
+{
+    "styles": {
+        "default": {
+            "fillColor": null,
+            "borderWidth": 1,
+            "borderColor": "#dbdbdb",
+            "showLabel": false,
+            "fontSize": 3.3,
+            "fontStrokeWidth":0,
+            "fontStrokeColor":null,
+            "fontName": "宋体",
+            "fontColor": "#333333",
+            "iconSize" : 0,
+            "iconName" : "",
+            "lineWidth" : 10,
+            "lineColor" : "#1ac690",
+            "lineColor2" : "#02857d",
+            "lineBorderColor" : "#02857d",
+            "lineIcon" : "path.png",
+            "lineIconDis" : 10,
+            "lineIconSize" : 10,
+            "shadowSize" : 0,
+            "shadowColor" : null,
+            "shadowColor2" : null,
+            "zIndex" : 0,
+            "maxViewLevel" : 0,
+            "dotsColor" : null
+        },
+        
+        "none" : {
+            "fillColor": null,
+             "borderWidth": 0,
+            "shadowSize" : 0
+        },
+        
+        "label" : {
+            "fillColor": null,
+             "borderWidth": 0,
+            "shadowSize" : 0,
+            "showLabel": true
+        },
+        
+        "airLayer" : {
+            "fillColor": [ 207, 203, 199, 128],
+            "shadowSize" : 0
+        },
+        
+        "groundLayer" : {
+             "fillColor": [255,255,255,100],
+             "borderWidth" : 0,
+             "shadowSize" : 0
+        },
+        
+        "buiding" : {
+            "fillColor" : "#ffffff",
+            "borderWidth" : 1,
+            "borderColor" : "#c9c9c9",
+            "showLabel": true,
+            "fontSize": 4,
+            "fontColor": "#333355",
+            "fontStrokeWidth":0.2,
+            "fontStrokeColor": "#FFFFFF",
+            "shadowSize" : 2
+        },
+        
+        "ground-in" : {
+             "fillColor": "#ffffff",
+             "borderColor" : "#8c8c8c",
+             "borderWidth" : 1,
+            "zIndex" : 10,
+            "showLabel" : false,
+            "maxViewLevel" : 100
+        },
+        
+        "ground-out" : {
+             "fillColor": "#fffff0",
+             "borderWidth" : 1,
+            "zIndex" : 1
+        },
+        
+        "plant" : {
+            "fillColor" : "#cae6c0",
+            "borderColor" : "#b5dda7",
+            "borderWidth" : 1,
+            "zIndex" : 12
+        },
+        
+        "area" : {
+            "fillColor" : "#f3eeeb",
+            "borderWidth" : 1,
+            "showLabel": true,
+            "iconSize" : 4,
+            "shadowSize" : 1,
+            "zIndex" : 12,
+            "maxViewLevel" : 100
+        },
+        
+        "water" : {
+            "extend" : "area",
+            "fillColor" : "#d3f0fd",
+            "borderColor" : "#9cd8f3",
+            "borderWidth" : 1,
+            "showLabel" : false
+        },
+        
+        "meeting" : {
+            "extend" : "area",
+            "fillColor" : "#feebcb",
+            "borderColor" : "#e1dad2",
+            "fontColor" : "#6f4c22"
+        },
+        
+        "department" : {
+            "extend" : "area",
+            "fillColor" : "#f1eae2",
+            "borderColor" : "#e1dad2",
+            "iconName" : "department.png",
+            "iconSize" : 3
+        },
+        
+        "reception" : {
+            "extend" : "area",
+            "fillColor" : "#fff4d9",
+            "borderColor" : "#e1dad2"
+        },
+        
+        "function" : {
+            "extend" : "area",
+            "fillColor" : "#c9e9f8",
+            "borderColor" : "#aed8eb",
+            "fontColor" : "#20425c"
+        },
+        
+        "clean" : {
+            "extend" : "area",
+            "fillColor" : "#e2ebfc",
+            "borderColor" : "#cddaf4"
+        },
+        
+        "holl" : {
+            "extend" : "area",
+            "fillColor" : [255, 255, 255, 100],
+            "zIndex" : 11
+        },
+        
+        "eating" : {
+            "extend" : "area",
+            "fillColor" : "#ffeef0",
+            "zIndex" : 11
+        },
+        
+        "parking" : {
+            "extend" : "area",
+            "fillColor" : "#faf6d0",
+            "borderColor" : "#eae6c0"
+        },
+        
+        "block" : {
+            "fillColor" : "#eaeaea",
+            "showLabel": false,
+            "borderWidth" : 1,
+            "borderColor" : "#dbdbdb",
+            "shadowSize" : 1,
+            "zIndex" : 11,
+            "maxViewLevel" : 100,
+            "dotsColor" : null
+        },
+        
+        "wall" : {
+            "extend" : "block",
+            "borderWidth" : 0,
+            "fillColor" : "#d7cdc4"
+        },
+        
+        "gate" : {
+            "extend" : "area",
+            "borderWidth" : 1,
+            "fillColor" : "#ffffff",
+            "showLabel" : false
+        },
+        
+        "furniture" : {
+            "fillColor" : "#f0feff",
+            "showLabel": false,
+            "borderWidth" : 1,
+            "zIndex" : 20,
+            "maxViewLevel" : 30
+        }
+        
+    },
+    
+    "map": [
+ { "refType": "1101", "desc" : "楼房轮廓", "style": "buiding", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1102", "desc" : "室外停车场", "style": "parking", "iconName" : "", "maxViewLevel" : 0, "fontSize" : 0  },
+ { "refType": "1103", "desc" : "室外球场", "style": "area", "iconName" : "", "maxViewLevel" : 0, "fontSize" : 0  },
+ { "refType": "1104", "desc" : "旗杆区", "style": "area", "iconName" : "", "maxViewLevel" : 0 },
+ 
+ { "refType": "1201", "desc" : "花园", "style": "plant", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1202", "desc" : "造景", "style": "plant", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1203", "desc" : "喷泉", "style": "water", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1204", "desc" : "水池", "style": "water", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1205", "desc" : "绿地", "style": "plant", "iconName" : "", "maxViewLevel" : 0 },
+ 
+ { "refType": "1301", "desc" : "人行道", "style": "ground-out", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1302", "desc" : "马路", "style": "ground-out", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1303", "desc" : "地面", "style": "ground-in", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1304", "desc" : "通道入口", "style": "gate", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1305", "desc" : "化粪池", "style": "plant", "iconName" : "", "maxViewLevel" : 0 },
+ { "refType": "1307", "desc" : "班车区", "style": "parking", "iconName" : "", "maxViewLevel" : 0 },
+ 
+ { "refType": "2101", "desc" : "会议室", "style": "meeting", "iconName" : "meeting.png" },
+ { "refType": "2102", "desc" : "大型会议室", "style": "meeting", "iconName" : "meeting.png" },
+ { "refType": "2103", "desc" : "办公室", "style": "meeting", "iconName" : "office.png" },
+ { "refType": "2104", "desc" : "接待室", "style": "reception", "iconName" : "discuss-room.png" },
+ { "refType": "2105", "desc" : "复印室", "style": "reception", "iconName" : "" },
+ { "refType": "2106", "desc" : "监控室", "style": "block", "iconName" : "" },
+ { "refType": "2107", "desc" : "货梯区", "style": "function", "iconName" : "", "showLabel" : false },
+ { "refType": "2108", "desc" : "库房", "style": "block", "iconName" : "" },
+ { "refType": "2109", "desc" : "机房", "style": "block", "iconName" : "" },
+ { "refType": "2110", "desc" : "吸烟室", "style": "function", "iconName" : "smoke.png" },
+ { "refType": "2111", "desc" : "母婴室", "style": "function", "iconName" : "" },
+ { "refType": "2112", "desc" : "卫生间", "style": "clean", "iconName" : "wc.png" },
+ { "refType": "2113", "desc" : "男卫生间", "style": "clean", "iconName" : "wc_men.png" },
+ { "refType": "2114", "desc" : "女卫生间", "style": "clean", "iconName" : "wc_women.png" },
+ { "refType": "2115", "desc" : "板洞", "style": "block", "iconName" : "" },
+ { "refType": "2116", "desc" : "茶水间", "style": "function", "iconName" : "rest.png" },
+ { "refType": "2117", "desc" : "理发店", "style": "function", "iconName" : "" },
+ { "refType": "2118", "desc" : "药店", "style": "function", "iconName" : "" },
+ { "refType": "2119", "desc" : "超市", "style": "function", "iconName" : "" },
+ { "refType": "2120", "desc" : "咖啡厅", "style": "function", "iconName" : "" },
+ { "refType": "2121", "desc" : "露天花园", "style": "plant", "iconName" : "", "maxViewLevel" : 100, "showLabel" : true },
+ { "refType": "2122", "desc" : "门厅", "style": "holl", "iconName" : "" },
+ { "refType": "2123", "desc" : "门斗", "style": "holl", "iconName" : "", "showLabel" : false },
+ { "refType": "2124", "desc" : "墙", "style": "wall", "iconName" : "" },
+ { "refType": "2125", "desc" : "自助银行", "style": "function", "iconName" : "atm.png" },
+ { "refType": "2126", "desc" : "大堂", "style": "holl", "iconName" : "" },
+ { "refType": "2127", "desc" : "休息室", "style": "function", "iconName" : "rest.png" },
+ { "refType": "2128", "desc" : "部门区域", "style": "department", "iconName" : "department.png" },
+ { "refType": "2129", "desc" : "班车停车区", "style": "parking", "iconName" : "" },
+ { "refType": "2130", "desc" : "健身器材区", "style": "function", "iconName" : "" },
+ { "refType": "2131", "desc" : "用户体验区", "style": "function", "iconName" : "" },
+ { "refType": "2132", "desc" : "客梯区", "style": "function", "iconName" : "elevator.png" },
+ { "refType": "2133", "desc" : "货梯区", "style": "function", "iconName" : "elevator.png" },
+ { "refType": "2134", "desc" : "扶梯区", "style": "function", "iconName" : "stairs.png" },
+ { "refType": "2135", "desc" : "楼梯区", "style": "function", "iconName" : "stairs.png" },
+ { "refType": "2136", "desc" : "门禁系统区", "style": "gate", "iconName" : "" },
+ { "refType": "2137", "desc" : "物业用区", "style": "block", "iconName" : "" },
+ { "refType": "2138", "desc" : "讨论区", "style": "holl", "iconName" : "" },
+ { "refType": "2139", "desc" : "过道", "style": "holl", "iconName" : "", "showLabel" : false  },
+ 
+ { "refType": "2140", "desc" : "开放式休息区", "style": "holl", "iconName" : "" },
+ { "refType": "2141", "desc" : "露天花园上空", "style": "plant", "iconName" : "", "maxViewLevel" : 100 },
+ { "refType": "2142", "desc" : "自提点", "style": "function", "iconName" : "" },
+ { "refType": "2143", "desc" : "空调机房", "style": "block", "iconName" : "" },
+ { "refType": "2144", "desc" : "面试等待区", "style": "holl", "iconName" : "" },
+ { "refType": "2145", "desc" : "面试等待区", "style": "holl", "iconName" : "" },
+ { "refType": "2146", "desc" : "准备间", "style": "reception", "iconName" : "" },
+ { "refType": "2147", "desc" : "消防器材区", "style": "function", "iconName" : "" },
+ { "refType": "2148", "desc" : "展示长廊", "style": "wc", "iconName" : "" },
+ { "refType": "2149", "desc" : "财务大厅", "style": "function", "iconName" : "" },
+ { "refType": "2150", "desc" : "花架", "style": "plant", "iconName" : "", "maxViewLevel" : 100  },
+ { "refType": "2151", "desc" : "收发室", "style": "function", "iconName" : "" },
+ { "refType": "2152", "desc" : "书吧", "style": "function", "iconName" : "" },
+ { "refType": "2153", "desc" : "平台", "style": "holl", "iconName" : "" },
+ { "refType": "2154", "desc" : "水管穿越区", "style": "block", "iconName" : "" },
+ 
+{ "refType": "2201", "desc" : "停车区", "style": "parking", "iconName" : "" },
+{ "refType": "2202", "desc" : "无障碍停车区", "style": "parking", "iconName" : "" },
+{ "refType": "2203", "desc" : "车行道", "style": "holl", "iconName" : "" },
+{ "refType": "2204", "desc" : "车库出入口", "style": "gate", "iconName" : "parking.png", "showLabel" : true },
+{ "refType": "2205", "desc" : "竖井", "style": "block", "iconName" : "" },
+{ "refType": "2206", "desc" : "冷冻机房", "style": "block", "iconName" : "" },
+{ "refType": "2207", "desc" : "电缆分界室", "style": "block", "iconName" : "" },
+{ "refType": "2208", "desc" : "变配电室", "style": "block", "iconName" : "" },
+{ "refType": "2209", "desc" : "气体钢瓶间", "style": "block", "iconName" : "" },
+{ "refType": "2210", "desc" : "发电机房", "style": "block", "iconName" : "" },
+{ "refType": "2211", "desc" : "换热机房", "style": "block", "iconName" : "" },
+{ "refType": "2212", "desc" : "电话交换机房", "style": "block", "iconName" : "" },
+{ "refType": "2213", "desc" : "储油间", "style": "block", "iconName" : "" },
+{ "refType": "2214", "desc" : "控制室", "style": "block", "iconName" : "" },
+{ "refType": "2215", "desc" : "值班室", "style": "function", "iconName" : "" },
+{ "refType": "2216", "desc" : "工具间", "style": "function", "iconName" : "" },
+{ "refType": "2217", "desc" : "水泵房", "style": "block", "iconName" : "" },
+{ "refType": "2218", "desc" : "电梯井道", "style": "block", "iconName" : "" },
+{ "refType": "2219", "desc" : "报警阀室", "style": "block", "iconName" : "" },
+{ "refType": "2220", "desc" : "开水间", "style": "function", "iconName" : "" },
+{ "refType": "2221", "desc" : "电缆井", "style": "block", "iconName" : "" },
+{ "refType": "2222", "desc" : "弱电室", "style": "block", "iconName" : "" },
+{ "refType": "2223", "desc" : "电梯厅", "style": "function", "iconName" : "" },
+
+{ "refType": "2301", "desc" : "就餐区", "style": "eating", "iconName" : "" },
+{ "refType": "2302", "desc" : "配餐区", "style": "function", "iconName" : "" },
+{ "refType": "2303", "desc" : "自助餐区", "style": "function", "iconName" : "" },
+{ "refType": "2304", "desc" : "主厨房", "style": "function", "iconName" : "" },
+{ "refType": "2305", "desc" : "面点间", "style": "function", "iconName" : "" },
+{ "refType": "2306", "desc" : "冷库", "style": "function", "iconName" : "" },
+{ "refType": "2307", "desc" : "主食库", "style": "function", "iconName" : "" },
+{ "refType": "2308", "desc" : "精加工间", "style": "function", "iconName" : "" },
+{ "refType": "2309", "desc" : "粗加工间", "style": "function", "iconName" : "" },
+{ "refType": "2310", "desc" : "回盘处", "style": "function", "iconName" : "" },
+{ "refType": "2312", "desc" : "碗碟间", "style": "clean", "iconName" : "" },
+{ "refType": "2313", "desc" : "更衣室", "style": "clean", "iconName" : "" },
+{ "refType": "2314", "desc" : "淋浴室", "style": "clean", "iconName" : "" },
+{ "refType": "2315", "desc" : "化学品库", "style": "function", "iconName" : "" },
+{ "refType": "2316", "desc" : "燃气表间", "style": "block", "iconName" : "" },
+{ "refType": "2317", "desc" : "连廊入口", "style": "gate", "iconName" : "" },
+{ "refType": "2318", "desc" : "冷厨", "style": "function", "iconName" : "" },
+ 
+ { "refType": "2221", "desc" : "工位", "style": "none", "iconName" : "" },
+ { "refType": "3122", "desc" : "班车位", "style": "none", "iconName" : "" },
+ { "refType": "9999", "desc" : "", "style": "label", "iconName" : "" }
+    ]
+}

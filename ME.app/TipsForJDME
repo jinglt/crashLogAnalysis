@@ -1,0 +1,62 @@
+
+//此文档为JDME编码中的必要说明 1.0           2014-08-12  
+------------------------我是华丽的分割线-------------
+1:关于本地存储公用信息及KEY的问题说明
+取出方式为
+[[NSUserDefaults standardUserDefaults] objectForKey:@"exit"]
+
+存储方式为
+[[NSUserDefaults standardUserDefaults] setObject:@"1111" forKey:@"exit"];//登录标示
+[[NSUserDefaults standardUserDefaults] synchronize];//必须及时同步,此句话不可少
+
+
+userIcon    //  pic url
+tipMessage  //  message
+tipIcon     //  message icon url
+userName    //  erp
+realName    //  中文名字
+jdAccount   //  京东账号
+exit        //  安全退出标志
+skinType1   //  待办皮肤标志  h5皮肤传参数
+sexIndex   //是否根据性别设置过皮肤
+
+
+
+
+------------------------我是华丽的分割线-------------
+
+//首页面功能列表的数据库表及数据格式//
+
+标题/图片/类型/指向/是否可以删除/下标/
+
+
+
+
+addressBookArrayKey 通讯录搜索缓存
+
+1、登录标志
+    exit:1111 登录成功
+
+
+
+
+--------作废注释--------
+
+2、打卡提醒开关
+swithOfDakaLocalNotifacation
+opened:本地打卡提醒打开
+closed:本地打卡提醒关闭
+
+3、打卡提醒重复规则
+repeatStr
+0 工作日
+1 每天
+2 永不
+
+shagnbantimeStr 上班时间
+xiabanTimeStr   下班时间
+
+localNotifivcationTimeOfShangban  本地通知时间(上班)
+localNotifivcationTimeOfxiaban    本地通知时间(下班)
+
+

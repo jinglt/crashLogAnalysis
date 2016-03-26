@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+  <title>网络异常</title>
+  <link rel="stylesheet" href="error.css">
+      <script>
+          function a(){
+          var url="objc://loagingIndexHtml:";
+            window.location.href = url;
+              alert("a");
+          }
+          </script>
+</head>
+<body ontouchstart>
+  <div class="background"></div>
+  <header class="live-header">
+	<div class="header-nav">
+	</div>
+  </header>
+  <div class="net-error" id="netError">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>网络状况不佳😢</p>
+</div>
+  
+<script>
+    var netError = document.getElementById("netError");
+    netError.addEventListener("click", function(){
+                              var url="objc://"+"loagingIndexHtml:"+":/";
+                              //var url="objc://loagingIndexHtml:";
+                              window.location.href = url;
+                              }, false);
+</script>
+</body>
+</html>

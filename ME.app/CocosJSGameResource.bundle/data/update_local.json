@@ -1,0 +1,16 @@
+{
+    
+    "filesMap" : {
+        "data/map/bj_zongbu/bj_zongbu_main.db" : 
+            {"version" : 2015091420, "sizeByte" : 535552, "webUrl" : "http://map.hi.jd.com/update/data/map/bj_zongbu/bj_zongbu_main.db"},
+            
+        "data/map/bj_zongbu/bj_zongbu_poi.db" : 
+            {"version" : 2015091400, "sizeByte" : 7168, "webUrl" : "http://map.hi.jd.com/update/data/map/bj_zongbu/bj_zongbu_poi.db"},
+            
+        "data/map/bj_zongbu/bj_zongbu_path.db" : 
+            {"version" : 2015091400, "sizeByte" : 409600, "webUrl" : "http://map.hi.jd.com/update/data/map/bj_zongbu/bj_zongbu_path.db"},
+            
+        "data/themes/default.json" : 
+            {"version" : 2015091511, "sizeByte" : 10, "webUrl" : "http://map.hi.jd.com/update/data/themes/default.json"}
+    }
+}

@@ -1,0 +1,150 @@
+({
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 12;
+appName = "\U73ed\U8f66";
+appOrder = 1;
+appSubName = "JD\U73ed\U8f66\Uff0c\U4f34\U60a8\U51fa\U884c";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U63d0\U4f9b\U5168\U56fd\U5404\U804c\U573a\U901a\U52e4\U8f66\Uff0c\U6446\U6e21\U8f66\Uff0c\U57f9\U8bad\U65e5\U73ed\U8f66\U4fe1\U606f\U67e5\U8be2\Uff0cJD\U73ed\U8f66\U4f34\U60a8\U5e73\U5b89\U51fa\U884c";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E7%8F%AD%E8%BD%A62015-06-1710-59-59.png?Expires=1749869999&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=b2P2Lnfay%2F6cl5RmU6jehp%2B5g6s%3D";
+},
+{
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 13;
+appName = "\U5185\U9500";
+appOrder = 2;
+appSubName = "\U79fb\U52a8\U5185\U9500\U62a2\U8d2d\U5feb\U4eba\U4e00\U6b65";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 0;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U5185\U9500\U5e73\U53f0\U624b\U673a\U7248\Uff0c\U66f4\U8fc5\U901f\U7684\U4e0b\U5355\Uff0c\U66f4\U4fbf\U6377\U7684\U67e5\U8be2\Uff0c\U5728\U5de5\U4f5c\U4e4b\U4f59\U66f4\U968f\U5fc3\U6240\U6b32\U7684\U4eab\U53d7\U5185\U9500\U798f\U5229~";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E5%86%85%E9%94%80%E5%B9%B3%E5%8F%B03x2015-06-1710-58-05.png?Expires=1749869885&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=Iz58gbElS2qlM6bGhHEPKXKSRZY%3D";
+},
+{
+appAddress = BenefitViewController;
+appDUrl = "";
+appID = 8;
+appName = "\U798f\U5229\U5238";
+appOrder = 3;
+appSubName = "\U798f\U5229\U5238\U968f\U65f6\U9886";
+appType = 1;
+iconHdurl = "http://storage.jd.local/jd.jme.photo/picturePerIcon2015-05-2111-33-19.png?Expires=1747539201&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=KMdgV3vVMB6xrzQZQDQ2PGfgKQg%3D";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U5728\U5bb6\U91cc\U4e5f\U53ef\U4ee5\U9886\U53d6\U798f\U5229\U5238\U5566\Uff01\U8fc7\U5e74\U8fc7\U8282\U798f\U5229\U597d\U4eab\Uff0c\U4f59\U989d\U67e5\U8be2\U3001\U5feb\U901f\U9886\U53d6\U3001\U5238\U989d\U81ea\U7531\U914d\U30015\U5206\U949f\U5230\U8d26\Uff01";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E7%A6%8F%E5%88%A9%E5%88%B82015-06-1711-13-08.png?Expires=1749870788&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=uNhXDp6YP5Rna7%2B08O0b488vMIs%3D";
+},
+{
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 3;
+appName = "\U79fb\U52a8\U5b66\U4e60";
+appOrder = 4;
+appSubName = "LOS\U87ba\U4e1d\U7cfb\U7edf\U79fb\U52a8\U7aef";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U5b66\U4e60\U7ec4\U7ec7\U7cfb\U7edf\Uff08LOS)\U79fb\U52a8\U7aef\Uff0c\U63d0\U4f9b\U57f9\U8bad\U4fe1\U606f\U67e5\U8be2\U3001\U62a5\U540d\U3001\U7b7e\U5230\U3001\U8bc4\U4f30\U529f\U80fd\Uff0c\U788e\U7247\U65f6\U95f4\U968f\U65f6\U5b66\U4e60\Uff0c\U52a9\U529b\U5458\U5de5\U6210\U957f\Uff01";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E7%A7%BB%E5%8A%A8%E5%AD%A6%E4%B9%A03x2015-06-1711-24-27.png?Expires=1749871468&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=BN8Wql4V4vxnN7rO2p%2B2wAtowww%3D";
+},
+{
+appAddress = BackLogListViewController;
+appDUrl = "";
+appID = 14;
+appName = "\U6d41\U7a0b\U4e2d\U5fc3";
+appOrder = 5;
+appSubName = "\U7533\U8bf7\U67e5\U8be2\U3001\U6279\U91cf\U5ba1\U6279";
+appType = 1;
+iconHdurl = "";
+isAppDetail = 0;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U4e00\U952e\U3001\U6279\U91cf\U5ba1\U6279\Uff0c\U968f\U65f6\U8ddf\U8e2a\U7533\U8bf7\U8fdb\U5ea6\Uff1b\U6db5\U76d6\U8d39\U7528\U62a5\U9500\U3001\U5408\U540c\U3001\U516c\U7ae0\U3001\U8003\U52e4\U76f8\U5173\U7b4989\U4e2a\U6d41\U7a0b\Uff0c\U5feb\U6765\U4f53\U9a8c\U5427\Uff01";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B93x2015-06-1710-55-36.png?Expires=1749869737&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=RG55AhKUAuwV5aAMRmSdzOYiDoI%3D";
+},
+{
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 9;
+appName = "\U9886\U514d\U8d39\U4e66";
+appOrder = 6;
+appSubName = "\U7545\U9500\U597d\U4e66\U514d\U8d39\U9886";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U8ba9\U9605\U8bfb\U6210\U4e3a\U4e00\U79cd\U4e60\U60ef\Uff01\U4eac\U4e1c\U9605\U8bfb\U798f\U5229\U5458\U5de5\Uff0c\U6bcf\U5468\U66f4\U65b0\U6700\U70ed\U9500\U597d\U4e66\Uff0c\U514d\U8d39\U9886\U53d6\Uff0c\U968f\U65f6\U67e5\U9605\Uff0c\U95f2\U6687\U65f6\U95f4\U4e0d\U5bc2\U5bde\Uff01";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E7%94%B5%E5%AD%90%E4%B9%A62015-06-1711-09-29.png?Expires=1749870570&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=qKYZUAkXHME17twhQqAstcR77SE%3D";
+},
+{
+appAddress = AboutCarsViewController;
+appDUrl = "";
+appID = 15;
+appName = "\U7ea6\U4e48";
+appOrder = 7;
+appSubName = "\U5185\U90e8\U5458\U5de5\U62fc\U8f66\U5e73\U53f0";
+appType = 1;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U653e\U5fc3\U7ea6\U3001\U514d\U8d39\U7ea6\Uff1b\U52a0\U73ed\U7ea6\U3001\U5468\U672b\U7ea6\U3002\U5185\U90e8\U5458\U5de5\U62fc\U8f66\U5e73\U53f0\Uff0c\U66f4\U591a\U5b9e\U60e0\Uff0c\U66f4\U591a\U5b89\U5fc3\Uff0c2015\Uff0c\U7ea6\U4e48\Uff1f\Uff01";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E7%BA%A6%E4%B9%882015-06-1711-27-26.png?Expires=1749871646&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=1kq0MbxxDrMPq%2B92aMy7dd5D8jk%3D";
+},
+{
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 22;
+appName = "\U4eac\U4e1c\U56e2\U5efa";
+appOrder = 8;
+appSubName = "\U53bb\U56e2\U5efa\Uff0c\U4e0a\U4eac\U4e1c!";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U5458\U5de5\U56e2\U5efa\U4f18\U60e0\U4e13\U4eab\U4ec5\U5728\U79fb\U52a8\U7aef~\U51fa\U53bb\U73a9\Uff0c\U8d77\U6765\U55e8\Uff01\Uff08\U76ee\U524d\U4ec5\U652f\U6301\U5317\U4eac\U5730\U533a\Uff0c\U66f4\U591a\U5730\U533a\U656c\U8bf7\U671f\U5f85\U2026\U2026\Uff09";
+photoKey = "http://storage.jd.com/jd.jme.photo/%E5%9B%A2%E5%BB%BA3p2015-07-1011-27-32.png?Expires=1751858852&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=ZxtNMOAwZlIGSlc6F6EaAzC6J8I%3D";
+},
+{
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 23;
+appName = "\U5929\U773c";
+appOrder = 9;
+appSubName = "\U4ea4\U6613\U7cfb\U7edf\U5f02\U5e38\U76d1\U63a7";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 1;
+isInstall = 1;
+memo = "\U7cbe\U786e\U5b9a\U4f4d\U4ea4\U6613\U7cfb\U7edf\U5f02\U5e38\Uff0c\U4fbf\U52297*24\U5c0f\U65f6\U76d1\U63a7\Uff0c\U6392\U67e5\U95ee\U9898\U70b9\Uff0c\U4e3a\U4ea4\U6613\U7cfb\U7edf\U7a33\U5b9a\U8fd0\U884c\U4fdd\U9a7e\U62a4\U822a\Uff01\Uff08\U4ec5\U5bf9\U4ea4\U6613\U5e73\U53f0\U5f00\U653e\Uff09";
+photoKey = "http://storage.jd.com/jd.jme.photo/%E5%A4%A9%E7%9C%BC12015-07-0818-00-10.png?Expires=1751709610&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=jjNLBt8fy4XN997816mHd1m9krk%3D";
+},
+{
+appAddress = PlatformForH5ViewController;
+appDUrl = "";
+appID = 7;
+appName = "\U8d24\U624d\U7eb3\U8d24";
+appOrder = 10;
+appSubName = "\U5185\U90e8\U9ad8\U85aa\U804c\U4f4d\U4e00\U624b\U638c\U63e1";
+appType = 2;
+iconHdurl = "";
+isAppDetail = 1;
+isInnerOnly = 2;
+isInstall = 1;
+memo = "\U4eac\U4e1c\U5185\U90e8\U63a8\U8350\U3001\U7ade\U8058\U804c\U4f4d\U53ca\U65f6\U770b\Uff0c\U540e\U7eed\U8fd8\U4f1a\U589e\U52a0\U6536\U85cf\U3001\U8ba2\U9605\U3001\U6295\U9012\U529f\U80fd\Uff0c\U656c\U8bf7\U671f\U5f85\U54e6\U2026\U2026";
+photoKey = "http://storage.jd.com/jd.jme.photo/icon-%E8%8D%90%E6%89%8D%E7%BA%B3%E8%B4%A42015-06-1711-16-19.png?Expires=1749870980&AccessKey=93c0d2d5a6cf315c3d4c52c5f549a9a886b59f76&Signature=7NN5Wzp7F2DDQIqUxwFpucltLDc%3D";
+})

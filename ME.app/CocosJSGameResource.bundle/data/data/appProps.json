@@ -1,0 +1,20 @@
+{
+    
+    "helloMessage" : {
+	     "showTime" : 5,
+         "msg" : "欢迎使用室内导航！\n【提示】室内定位功能需要安卓4.3及以上系统，苹果iOS7.0及以上系统且iPhone4S以上设备，iOS请手动开启蓝牙！"
+    },
+    
+    "hotKeys" : [
+	    {"key" : "EIT桌面支持中心", "value" : 0, "desc" : "热门"},
+	    {"key" : "智能大厦支持中心", "value" : 0, "desc" : "热门"}
+	],
+	
+	"detailPages" : [
+	    {"refType" : "3122", "pageName" : "班车详情"},
+	    {"refType" : "2101", "pageName" : "会议室详情"}
+	],
+	
+	"logTaskInterval" : 60
+    
+}

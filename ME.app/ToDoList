@@ -1,0 +1,28 @@
+
+//此文档为JDME编码中的必要说明 1.0                  2014-08-12
+/*/存放遗留问题,或者冲突于当前开发排期的问题/*/
+1:iphone5中重装APP,加载头像异常?逻辑梳理....
+
+//应用更新,检查地址???需指向最新的服务器地址
+//关于页面,在4S上不能滚动??
+
+
+//发布和测试时的URL替换和素材替换
+
+
+
+//打卡记录-----willdissappear 中reload 引起崩溃问题  (已解决)
+
+访问受限，感谢您在JD的每一天
+
+上车经纬度  onPositionLonLat（预留）
+下车文字描述位置 offPosition
+下车车经纬度   offPositionLonLat（预留）
+xinzeng
+
+plist文件
+historyWorkplace        职场列表---本地缓存
+meetingSearchRecord     会议室模糊搜索--本地缓存
+workplaceDic            最近3次职场浏览---本地缓存
+
+initSwitch    :THECLOSED   用户消息通知已经初始化

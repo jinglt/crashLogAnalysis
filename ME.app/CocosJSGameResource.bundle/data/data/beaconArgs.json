@@ -1,0 +1,29 @@
+{
+    "DEFAULT" : { "txPower" : -59, "restrict" : 22, "aliveTime" : 5000, "calcBeacons" : 4 },
+    "samsung" : {
+         "DEFAULT" : { "txPower" : -65, "restrict" : 25, "aliveTime" : 5000, "calcBeacons" : 4 },
+         "SM-N9100" : { "txPower" : -65, "restrict" : 25, "aliveTime" : 5000, "calcBeacons" : 4 }
+    },
+    "Meizu" : {
+         "DEFAULT" : { "txPower" : -58, "restrict" : 20, "aliveTime" : 5000, "calcBeacons" : 4 },
+         "MX4" : { "txPower" : -58, "restrict" : 20, "aliveTime" : 5000, "calcBeacons" : 4 }
+    },
+    "htc" : {
+         "DEFAULT" : { "txPower" : -64, "restrict" : 20, "aliveTime" : 5000, "calcBeacons" : 4 },
+         "HTC 802w" : { "txPower" : -64, "restrict" : 20, "aliveTime" : 5000, "calcBeacons" : 4 }
+    },
+    "Xiaomi" : {
+         "DEFAULT" : { "txPower" : -64, "restrict" : 20, "aliveTime" : 5000, "calcBeacons" : 4 },
+         "MI 4LTE" : { "txPower" : -62, "restrict" : 17, "aliveTime" : 3000, "calcBeacons" : 4 }
+    },
+    "Apple" : {
+         "DEFAULT" : { "txPower" : -52, "restrict" : 20, "aliveTime" : 3000, "calcBeacons" : 4 },
+         "iPhone7,1" : { "txPower" : -52, "restrict" : 20, "aliveTime" : 2000, "calcBeacons" : 4 },
+         "iPhone7,2" : { "txPower" : -52, "restrict" : 20, "aliveTime" : 3000, "calcBeacons" : 4 },
+         "iPhone6,1" : { "txPower" : -52, "restrict" : 20, "aliveTime" : 3000, "calcBeacons" : 4 },
+         "iPhone6,2" : { "txPower" : -52, "restrict" : 20, "aliveTime" : 3000, "calcBeacons" : 4 },
+         "iPhone4,1" : { "txPower" : -70, "restrict" : 20, "aliveTime" : 3000, "calcBeacons" : 4 }
+    }
+}
+
+
